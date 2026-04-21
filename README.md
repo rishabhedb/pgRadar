@@ -223,16 +223,6 @@ The following tools are planned for future releases. **SME input is needed** —
 
 ---
 
-## 🙏 Credits
-
-| Person | Contribution |
-|---|---|
-| **Swapnil Suryawanshi** | Guided on important aspects of EFM architecture — failover mechanics, promotable flags, `auto.failover` configuration, and the cluster parameters DBAs look at during incidents |
-| **Shweta Ma'am** | Gave the key idea of the multi-tab EFM node layout — the core UX concept that transformed a flat single-page report into the tabbed multi-node dashboard |
-| **AI (Claude)** | HTML/CSS design system, dark/light theme, donut charts, all panel implementations, and the complete POSIX shell script architecture |
-
----
-
 ## 📄 License
 
 MIT License. See [LICENSE](LICENSE) for full terms.
