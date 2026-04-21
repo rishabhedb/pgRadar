@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────
+#  PGRadar — .gitignore
+# ─────────────────────────────────────────────
+
+# PGRadar generated output (never commit report output)
+PGRADAR_OUTPUT/
+pgradar-report_*.html
+pgradar-assets_*/
+
+# EDB Lasso bundles (can be very large — never commit)
+*.tar.bz2
+*.tar.gz
+*.tar.xz
+
+# shc compiler artifacts
+*.sh.x.c
+*.x.c
+
+# Temp files created during report generation
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.nfs*
+
+# VS Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
